@@ -1,0 +1,207 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,body {
+    background-image: url(../img/sfondo.png);
+    background-repeat: repeat-y;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em; margin: 10px;
+    font-style: normal;
+}
+   
+/* HEADER */
+header{
+    width:auto;
+    height:250px;
+    display:block;
+    margin:20px auto;
+    box-sizing: border-box;
+    content: center;
+    background-color: rgb(59, 133, 162);
+    background: linear-gradient(to bottom rgb(59, 133, 162)rgb(120, 178, 204));
+    background-position: center;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    box-shadow: 0px, 3px,4px,2px rgb(115,115,115);
+    
+}
+
+
+header img {
+    margin-top:20px;
+
+}
+
+
+
+header nav ul li a:link{
+    color:white
+}
+
+
+
+
+a:hover a:visited{
+    text-decoration: underline;
+    color:red
+
+}
+
+nav ul li::after{
+    content:"\21D0"
+}
+
+nav ul li::before{
+    content:"\21D2"
+}
+ 
+nav ul li{
+    list-style-type: none;
+}
+
+
+
+
+/* MAIN */
+
+main{
+    background-color: rgb(251, 249, 249);
+    padding: 30px,10px; 
+    box-shadow: 0px, 3px, 4px,2px rgb(115, 115, 115,1);
+    line-height: 1.2em;
+    
+}
+
+
+h1{font-weight:bold;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+h1 + p{
+    color:darkgrey;
+}
+
+
+strong{
+    color:rgb(161, 12, 161)
+}
+
+code{
+    border-radius: 10px;
+    background-color: rgb(215, 209, 209);
+    border:1px solid darkgrey;
+   line-height: 1.2em;
+}
+
+caption{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+thead{
+    background-color:rgb(94, 209, 255) ;
+    border-inline-color: white;
+    height: 20px;
+    border: 1px solid white;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+}
+
+table{
+     
+    width: 100%;
+    margin: 30px;
+   padding: 10px;
+    text-align: center;
+   
+    
+}
+
+tr:nth-child(even){
+    background-color: darkgrey;
+}
+
+tbody{
+    border-bottom:  rgb(94, 209, 255);
+}
+
+
+iframe{
+    border-radius: 30px;
+    border:1px solid;
+    display: block;
+    margin:20px auto;
+    width: 100%;
+
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section{
+    border: 2px solid grey;
+    background-color: rgb(195, 191, 191);
+    text-align: center;
+    margin:30px;
+    
+}
+
+button{
+    background-color: blue;
+    height:20px;
+
+}
+input{
+    border:0px ;
+    border-bottom: 2px dashed black;
+    margin: 30px;
+    height: 20px;
+
+}
+
+
+aside div{
+    background-color: rgb(229, 223, 223);
+    border: 2px solid grey;
+    margin-bottom: 15px;
+    padding:10px;
+    margin:30px;
+}
+
+
+
+aside div p + p {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: rgb(95, 201, 243);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+footer{
+    background-color: rgb(59, 133, 162);
+    background: linear-gradient( rgb(59, 133, 162)rgb(120, 178, 204));
+    background-position: center;
+    text-align: center;  
+    color:white;
+    width:auto;
+    padding:5px; 
+    display:block;
+    line-height: 1.2em;
+    margin:30px;
+}
